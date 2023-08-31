@@ -29,13 +29,8 @@ name = "Guestbook"
 url = "/guestbook"
 weight = 4
 
-[[menu.main]]
-name = "Dashboard"
-url = "https://liujianjiang.com"
-weight = 5
-
 [params]
-brand = "HOME"
+brand = "读书日记"
 avatarURL = "/images/avatar.png"
 author = "Hugo Ladder"
 authorDescription = "A clean, fast hugo theme focused on Reading"
@@ -118,11 +113,6 @@ weight = 3
 name = "留言板"
 url = "/guestbook"
 weight = 4
-
-[[languages.zh.menu.main]]
-name = "网站统计"
-url = ""
-weight = 5
 
 [taxonomies]
 series = "series"
