@@ -51,13 +51,13 @@ darkModeTheme = "data-dark-mode"
 
 [params.comments.giscus]
 enable = true
-repo = "username/reponame"
-repo_id = "xxx"
+repo = "liujianjiang/hugo-blog"
+repo_id = "R_kgDOKNlToA"
 category = "Announcements"
-category_id = "DIC_xxx"
+category_id = "DIC_kwDOKNlToM4CY_Ej"
 mapping = "pathname"
 position = "top"
-lang = "en"
+lang = "zh-CN"
 
 [params.comments.utteranc]
 enable = false
