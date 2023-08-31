@@ -1,6 +1,6 @@
 <p>
   <small>
-    {{ .Date | time.Format ":date_long" }}&nbsp;· {{ i18n "word_count" .WordCount -}}&nbsp;· {{ i18n "reading_time" .ReadingTime -}}
+    {{ .Date.Format ($.Site.Params.DateFormatList | default "2006-01-02") }}&nbsp;· {{ i18n "word_count" .WordCount -}}&nbsp;· {{ i18n "reading_time" .ReadingTime -}}
   </small>
 
   {{ if .Site.Params.options.showMetaTags -}}
