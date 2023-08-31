@@ -784,6 +784,167 @@
     </item>
     
     <item>
+      <title>多语言支持</title>
+      <link>https://liujianjiang.com/blog/zh/multi-language/</link>
+      <pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate>
+      
+      <guid>https://liujianjiang.com/blog/zh/multi-language/</guid>
+      <description>&lt;p&gt;本文是关于多语言支持。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#available-languages&#34;&gt;Available Languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#configure-languages&#34;&gt;Configure languages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#translation-file-example&#34;&gt;Translation File Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;available-languages&#34;&gt;Available Languages&lt;/h2&gt;
+&lt;p&gt;目前主题支持这些语言:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;英语&lt;/li&gt;
+&lt;li&gt;简体中文&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;configure-languages&#34;&gt;Configure languages&lt;/h2&gt;
+&lt;p&gt;跟随 &lt;a href=&#34;https://gohugo.io/content-management/multilingual/#configure-languages&#34;&gt;this Hugo documentation page&lt;/a&gt; 给你的网站配置语言。&lt;/p&gt;
+&lt;h2 id=&#34;translation-file-example&#34;&gt;Translation File Example&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;blog&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;blog&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;blog&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;tags&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;tag&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;tags&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;archive&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;archive&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;archive&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;series&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;series&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;series&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;reading_time&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;One minute&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{{ .Count }} min&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;word_count&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;one word&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{{ .Count }} words&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;related_resources&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Related Resources&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;featured_posts&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Featured Posts&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Featured Posts&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;blog&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;文章&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;文章&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;tags&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;分类&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;分类&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;archive&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;历史文章&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;历史文章&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;series&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;系列文章&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;系列文章&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;reading_time&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1 分钟&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{{ .Count }} 分钟&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;word_count&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;字&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{{ .Count }} 字&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;related_resources&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;相关系列文章推荐&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;相关系列文章推荐&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;featured_posts&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;推荐阅读&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;推荐阅读&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>快速安装使用</title>
+      <link>https://liujianjiang.com/blog/zh/quick-start/</link>
+      <pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate>
+      
+      <guid>https://liujianjiang.com/blog/zh/quick-start/</guid>
+      <description>&lt;p&gt;本文是关于如何快速安装使用本主题。&lt;/p&gt;
+&lt;h2 id=&#34;how-to-install&#34;&gt;how to install&lt;/h2&gt;
+&lt;p&gt;在这个仓库中点击 &lt;code&gt;Use this template&lt;/code&gt; 创建博客。 &lt;a href=&#34;https://github.com/guangzhengli/hugo-ladder-exampleSite&#34;&gt;https://github.com/guangzhengli/hugo-ladder-exampleSite&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/4dmtph.png&#34; alt=&#34;4dmtph&#34;&gt;&lt;/p&gt;
+&lt;p&gt;点击后输入 &lt;code&gt;username.github.io&lt;/code&gt; 创建(GitHub Pages)仓库 &lt;strong&gt;用你的 github 账号名称代替 username&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;接着配置你的 GitHub pages 配置信息，如下图所示:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/nsrExo.png&#34; alt=&#34;nsrExo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;🎉🎉🎉 打开你的浏览器，输入: &lt;a href=&#34;https://username.github.io&#34;&gt;https://username.github.io&lt;/a&gt; 🎉🎉🎉&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>评论功能</title>
+      <link>https://liujianjiang.com/blog/zh/comment-system/</link>
+      <pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate>
+      
+      <guid>https://liujianjiang.com/blog/zh/comment-system/</guid>
+      <description>&lt;p&gt;本文关于如何集成评论功能，在文章末尾或者留言板中显示评论信息。&lt;/p&gt;
+&lt;h3 id=&#34;comment-systems&#34;&gt;Comment Systems&lt;/h3&gt;
+&lt;p&gt;在文章末尾或者留言板中显示评论信息。&lt;/p&gt;
+&lt;h4 id=&#34;giscus&#34;&gt;Giscus&lt;/h4&gt;
+&lt;p&gt;Follow &lt;a href=&#34;https://giscus.app/&#34;&gt;these steps&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;comments&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;giscus&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;enable&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;repo&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;username/reponame&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;repo_id&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Rid&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;category&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Announcements&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;category_id&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;DIC_id&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;mapping&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;pathname&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;position&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;top&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;lang&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;en&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# pick a language from https://github.com/giscus/giscus/tree/main/locales&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;utterances&#34;&gt;Utterances&lt;/h4&gt;
+&lt;p&gt;Follow &lt;a href=&#34;https://utteranc.es/&#34;&gt;these steps&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;comments&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;utteranc&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;enable&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;repo&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;username/reponame&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;issueTerm&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;pathname&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>网站数据统计分析</title>
+      <link>https://liujianjiang.com/blog/zh/analytics/</link>
+      <pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate>
+      
+      <guid>https://liujianjiang.com/blog/zh/analytics/</guid>
+      <description>&lt;p&gt;本文关于如何集成网站数据统计分析。&lt;/p&gt;
+&lt;h2 id=&#34;analytics&#34;&gt;Analytics&lt;/h2&gt;
+&lt;h2 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h2&gt;
+&lt;p&gt;详情点击 &lt;a href=&#34;https://gohugo.io/templates/internal/#configure-google-analytics&#34;&gt;these steps&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;google-tag-manager&#34;&gt;Google Tag Manager&lt;/h3&gt;
+&lt;p&gt;详情点击 &lt;a href=&#34;https://developers.google.com/tag-manager&#34;&gt;these steps&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#f92672&#34;&gt;analytics&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#f92672&#34;&gt;google&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			&lt;span style=&#34;color:#f92672&#34;&gt;SiteVerificationTag&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;gid&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;umami-analytics&#34;&gt;Umami Analytics&lt;/h3&gt;
+&lt;p&gt;详情点击 &lt;a href=&#34;https://guangzhengli.com/blog/en/how-to-integrate-umami-for-free-to-blog-site/&#34;&gt;these steps&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#f92672&#34;&gt;analytics&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#f92672&#34;&gt;umami&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;enable&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;website_id&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;data-website-id&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://umami-ochre-nu.vercel.app/hugo-ladder.js&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>主题配置</title>
       <link>https://liujianjiang.com/blog/zh/configurations/</link>
       <pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate>
@@ -1291,167 +1452,6 @@
 &lt;li&gt;&lt;code&gt;series&lt;/code&gt; series, it will be show related post below the content.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;featured&lt;/code&gt; it will be show in home page featured post, &lt;code&gt;true&lt;/code&gt; or &lt;code&gt;false&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>多语言支持</title>
-      <link>https://liujianjiang.com/blog/zh/multi-language/</link>
-      <pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate>
-      
-      <guid>https://liujianjiang.com/blog/zh/multi-language/</guid>
-      <description>&lt;p&gt;本文是关于多语言支持。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#available-languages&#34;&gt;Available Languages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#configure-languages&#34;&gt;Configure languages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#translation-file-example&#34;&gt;Translation File Example&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;available-languages&#34;&gt;Available Languages&lt;/h2&gt;
-&lt;p&gt;目前主题支持这些语言:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;英语&lt;/li&gt;
-&lt;li&gt;简体中文&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;configure-languages&#34;&gt;Configure languages&lt;/h2&gt;
-&lt;p&gt;跟随 &lt;a href=&#34;https://gohugo.io/content-management/multilingual/#configure-languages&#34;&gt;this Hugo documentation page&lt;/a&gt; 给你的网站配置语言。&lt;/p&gt;
-&lt;h2 id=&#34;translation-file-example&#34;&gt;Translation File Example&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;blog&lt;/span&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;blog&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;blog&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;tags&lt;/span&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;tag&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;tags&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;archive&lt;/span&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;archive&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;archive&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;series&lt;/span&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;series&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;series&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;reading_time&lt;/span&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;One minute&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{{ .Count }} min&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;word_count&lt;/span&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;one word&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{{ .Count }} words&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;related_resources&lt;/span&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Related Resources&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;featured_posts&lt;/span&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Featured Posts&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Featured Posts&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;blog&lt;/span&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;文章&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;文章&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;tags&lt;/span&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;分类&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;分类&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;archive&lt;/span&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;历史文章&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;历史文章&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;series&lt;/span&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;系列文章&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;系列文章&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;reading_time&lt;/span&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1 分钟&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{{ .Count }} 分钟&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;word_count&lt;/span&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;字&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{{ .Count }} 字&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;related_resources&lt;/span&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;相关系列文章推荐&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;相关系列文章推荐&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;featured_posts&lt;/span&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;推荐阅读&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;other&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;推荐阅读&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>快速安装使用</title>
-      <link>https://liujianjiang.com/blog/zh/quick-start/</link>
-      <pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate>
-      
-      <guid>https://liujianjiang.com/blog/zh/quick-start/</guid>
-      <description>&lt;p&gt;本文是关于如何快速安装使用本主题。&lt;/p&gt;
-&lt;h2 id=&#34;how-to-install&#34;&gt;how to install&lt;/h2&gt;
-&lt;p&gt;在这个仓库中点击 &lt;code&gt;Use this template&lt;/code&gt; 创建博客。 &lt;a href=&#34;https://github.com/guangzhengli/hugo-ladder-exampleSite&#34;&gt;https://github.com/guangzhengli/hugo-ladder-exampleSite&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/4dmtph.png&#34; alt=&#34;4dmtph&#34;&gt;&lt;/p&gt;
-&lt;p&gt;点击后输入 &lt;code&gt;username.github.io&lt;/code&gt; 创建(GitHub Pages)仓库 &lt;strong&gt;用你的 github 账号名称代替 username&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;接着配置你的 GitHub pages 配置信息，如下图所示:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/nsrExo.png&#34; alt=&#34;nsrExo&#34;&gt;&lt;/p&gt;
-&lt;p&gt;🎉🎉🎉 打开你的浏览器，输入: &lt;a href=&#34;https://username.github.io&#34;&gt;https://username.github.io&lt;/a&gt; 🎉🎉🎉&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>网站数据统计分析</title>
-      <link>https://liujianjiang.com/blog/zh/analytics/</link>
-      <pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate>
-      
-      <guid>https://liujianjiang.com/blog/zh/analytics/</guid>
-      <description>&lt;p&gt;本文关于如何集成网站数据统计分析。&lt;/p&gt;
-&lt;h2 id=&#34;analytics&#34;&gt;Analytics&lt;/h2&gt;
-&lt;h2 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h2&gt;
-&lt;p&gt;详情点击 &lt;a href=&#34;https://gohugo.io/templates/internal/#configure-google-analytics&#34;&gt;these steps&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;google-tag-manager&#34;&gt;Google Tag Manager&lt;/h3&gt;
-&lt;p&gt;详情点击 &lt;a href=&#34;https://developers.google.com/tag-manager&#34;&gt;these steps&lt;/a&gt;.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#f92672&#34;&gt;analytics&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#f92672&#34;&gt;google&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			&lt;span style=&#34;color:#f92672&#34;&gt;SiteVerificationTag&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;gid&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;umami-analytics&#34;&gt;Umami Analytics&lt;/h3&gt;
-&lt;p&gt;详情点击 &lt;a href=&#34;https://guangzhengli.com/blog/en/how-to-integrate-umami-for-free-to-blog-site/&#34;&gt;these steps&lt;/a&gt;.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#f92672&#34;&gt;analytics&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#f92672&#34;&gt;umami&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;enable&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;website_id&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;data-website-id&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://umami-ochre-nu.vercel.app/hugo-ladder.js&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>评论功能</title>
-      <link>https://liujianjiang.com/blog/zh/comment-system/</link>
-      <pubDate>Sun, 14 Aug 2022 21:34:36 +0800</pubDate>
-      
-      <guid>https://liujianjiang.com/blog/zh/comment-system/</guid>
-      <description>&lt;p&gt;本文关于如何集成评论功能，在文章末尾或者留言板中显示评论信息。&lt;/p&gt;
-&lt;h3 id=&#34;comment-systems&#34;&gt;Comment Systems&lt;/h3&gt;
-&lt;p&gt;在文章末尾或者留言板中显示评论信息。&lt;/p&gt;
-&lt;h4 id=&#34;giscus&#34;&gt;Giscus&lt;/h4&gt;
-&lt;p&gt;Follow &lt;a href=&#34;https://giscus.app/&#34;&gt;these steps&lt;/a&gt;.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;comments&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;giscus&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;enable&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;repo&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;username/reponame&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;repo_id&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Rid&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;category&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Announcements&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;category_id&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;DIC_id&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;mapping&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;pathname&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;position&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;top&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;lang&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;en&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# pick a language from https://github.com/giscus/giscus/tree/main/locales&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;utterances&#34;&gt;Utterances&lt;/h4&gt;
-&lt;p&gt;Follow &lt;a href=&#34;https://utteranc.es/&#34;&gt;these steps&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;comments&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;utteranc&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;enable&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;repo&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;username/reponame&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;issueTerm&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;pathname&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>
