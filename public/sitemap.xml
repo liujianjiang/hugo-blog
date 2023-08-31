@@ -2,145 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://liujianjiang.com/blog/</loc>
-    <lastmod>2022-08-20T21:34:36+08:00</lastmod>
+    <loc>https://liujianjiang.com/blog/zh/2023-08-31/</loc>
+    <lastmod>2023-08-31T14:56:05+08:00</lastmod>
   </url><url>
-    <loc>https://liujianjiang.com/series/how-to-create-your-blog/</loc>
-    <lastmod>2022-08-20T21:34:36+08:00</lastmod>
+    <loc>https://liujianjiang.com/blog/</loc>
+    <lastmod>2023-08-31T14:56:05+08:00</lastmod>
   </url><url>
     <loc>https://liujianjiang.com/tags/hugo/</loc>
-    <lastmod>2022-08-20T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/tags/ladder/</loc>
-    <lastmod>2022-08-20T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/ladder-guide/</loc>
-    <lastmod>2022-08-20T21:34:36+08:00</lastmod>
+    <lastmod>2023-08-31T14:56:05+08:00</lastmod>
   </url><url>
     <loc>https://liujianjiang.com/</loc>
-    <lastmod>2022-08-20T21:34:36+08:00</lastmod>
+    <lastmod>2023-08-31T14:56:05+08:00</lastmod>
   </url><url>
     <loc>https://liujianjiang.com/series/</loc>
-    <lastmod>2022-08-20T21:34:36+08:00</lastmod>
+    <lastmod>2023-08-31T14:56:05+08:00</lastmod>
   </url><url>
     <loc>https://liujianjiang.com/tags/</loc>
-    <lastmod>2022-08-20T21:34:36+08:00</lastmod>
+    <lastmod>2023-08-31T14:56:05+08:00</lastmod>
   </url><url>
-    <loc>https://liujianjiang.com/tags/tutorial/</loc>
-    <lastmod>2022-08-20T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/zh/ladder-guide/</loc>
-    <lastmod>2022-08-20T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/quick-start/</loc>
-    <lastmod>2022-08-19T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/tags/analytics/</loc>
-    <lastmod>2022-08-14T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/analytics/</loc>
-    <lastmod>2022-08-14T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/tags/comment/</loc>
-    <lastmod>2022-08-14T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/comment-system/</loc>
-    <lastmod>2022-08-14T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/tags/configurations/</loc>
-    <lastmod>2022-08-14T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/configurations/</loc>
-    <lastmod>2022-08-14T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/how-to-integrate-umami-for-free-to-blog-site/</loc>
-    <lastmod>2022-08-14T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/multi-language/</loc>
-    <lastmod>2022-08-14T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/tags/umami/</loc>
-    <lastmod>2022-08-14T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/zh/multi-language/</loc>
-    <lastmod>2022-08-14T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2022-08-14T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/zh/quick-start/</loc>
-    <lastmod>2022-08-14T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/zh/comment-system/</loc>
-    <lastmod>2022-08-14T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/zh/how-to-integrate-umami-for-free-to-blog-site/</loc>
-    <lastmod>2022-08-14T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/zh/analytics/</loc>
-    <lastmod>2022-08-14T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/zh/configurations/</loc>
-    <lastmod>2022-08-14T21:34:36+08:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/code-highlight/</loc>
-    <lastmod>2019-07-25T16:43:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/zh/code-highlight/</loc>
-    <lastmod>2019-07-25T16:43:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/tags/markdown/</loc>
-    <lastmod>2019-07-25T16:43:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/series/markdown/</loc>
-    <lastmod>2019-07-25T16:43:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/tags/themes/</loc>
-    <lastmod>2019-07-25T16:43:00+00:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/videos/</loc>
-    <lastmod>2013-12-25T00:19:15+00:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/zh/videos/</loc>
-    <lastmod>2013-12-25T00:19:15+00:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/zh/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88/</loc>
-    <lastmod>2013-12-24T23:33:26+00:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88/</loc>
-    <lastmod>2013-12-24T23:33:26+00:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/zh/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/</loc>
-    <lastmod>2013-12-24T23:31:30+00:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/</loc>
-    <lastmod>2013-12-24T23:31:30+00:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/elements/</loc>
-    <lastmod>2013-12-24T23:29:08+00:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/zh/elements/</loc>
-    <lastmod>2013-12-24T23:29:08+00:00</lastmod>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/rich-content/</loc>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/zh/rich-content/</loc>
+    <loc>https://liujianjiang.com/series/%E4%BD%BF%E7%94%A8-hugo-%E5%AE%89%E8%A3%85%E4%BA%86%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2023-08-31T14:56:05+08:00</lastmod>
   </url><url>
     <loc>https://liujianjiang.com/archives/</loc>
   </url><url>
     <loc>https://liujianjiang.com/art/</loc>
   </url><url>
-    <loc>https://liujianjiang.com/tags/bar/</loc>
-  </url><url>
     <loc>https://liujianjiang.com/blog/</loc>
   </url><url>
-    <loc>https://liujianjiang.com/tags/foo/</loc>
-  </url><url>
     <loc>https://liujianjiang.com/guestbook/</loc>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/markdown/</loc>
-  </url><url>
-    <loc>https://liujianjiang.com/blog/zh/markdown/</loc>
   </url><url>
     <loc>https://liujianjiang.com/tags/</loc>
   </url>

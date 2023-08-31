@@ -33,8 +33,8 @@ weight = 4
 brand = "主页"
 avatarURL = "/images/avatar.png"
 author = "JianJiang Liu"
-authorDescription = "乘风破浪会有时，直挂云帆济沧海。"
-info = "读书学习记录日常。"
+authorDescription = "长风破浪会有时，直挂云帆济沧海。"
+info = "生活，工作日记。"
 favicon = "/images/avatar.png"
 darkModeTheme = "data-dark-mode"
 
@@ -87,8 +87,8 @@ SiteVerificationTag = "xxx"
 [languages.zh]
 languageName = "中"
 author = "刘建江"
-authorDescription = "读书学习记录日常。"
-info = "读书学习记录日常。"
+authorDescription = "长风破浪会有时，直挂云帆济沧海。"
+info = "生活，工作日记。"
 
   [languages.zh.guestbook]
   title = "留言板"

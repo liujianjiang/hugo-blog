@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on liujianjiang</title>
-    <link>https://liujianjiang.com/blog/</link>
-    <description>Recent content in Blogs on liujianjiang</description>
+    <title>使用 hugo 安装了博客。 on liujianjiang</title>
+    <link>https://liujianjiang.com/series/%E4%BD%BF%E7%94%A8-hugo-%E5%AE%89%E8%A3%85%E4%BA%86%E5%8D%9A%E5%AE%A2/</link>
+    <description>Recent content in 使用 hugo 安装了博客。 on liujianjiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 31 Aug 2023 14:56:05 +0800</lastBuildDate><atom:link href="https://liujianjiang.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Aug 2023 14:56:05 +0800</lastBuildDate><atom:link href="https://liujianjiang.com/series/%E4%BD%BF%E7%94%A8-hugo-%E5%AE%89%E8%A3%85%E4%BA%86%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023-08-31</title>
       <link>https://liujianjiang.com/blog/zh/2023-08-31/</link>
