@@ -30,11 +30,11 @@ url = "/guestbook"
 weight = 4
 
 [params]
-brand = "读书日记"
+brand = "主页"
 avatarURL = "/images/avatar.png"
-author = "Hugo Ladder"
-authorDescription = "A clean, fast hugo theme focused on Reading"
-info = "Ladder is a clean, simple but beautiful theme with awesome features"
+author = "JianJiang Liu"
+authorDescription = "乘风破浪会有时，直挂云帆济沧海。"
+info = "读书学习记录日常。"
 favicon = "/images/avatar.png"
 darkModeTheme = "data-dark-mode"
 
