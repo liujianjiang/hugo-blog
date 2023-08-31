@@ -31,11 +31,11 @@ weight = 4
 
 [params]
 brand = "主页"
-avatarURL = "/images/avatar.png"
+avatarURL = ""
 author = "JianJiang Liu"
 authorDescription = "长风破浪会有时，直挂云帆济沧海。"
 info = "生活，工作日记。"
-favicon = "/images/avatar.png"
+favicon = ""
 darkModeTheme = "data-dark-mode"
 
   [params.options]
