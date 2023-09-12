@@ -3,7 +3,7 @@ title: 博客搭建
 description: 
 date: 2023-09-12
 slug: 2023-09-12
-image: 
+image: 微信图片_20230309194958.jpg
 categories:
     - Blog
 tags:
