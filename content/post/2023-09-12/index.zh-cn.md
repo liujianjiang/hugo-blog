@@ -5,7 +5,9 @@ date: 2023-09-12
 slug: 2023-09-12
 image: 
 categories:
-
+    - Blog
+tags:
+    - hugo
 ---
 
 ## 博客搭建
