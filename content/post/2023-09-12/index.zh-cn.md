@@ -1,5 +1,5 @@
 ---
-title: 2023-09-12
+title: 博客搭建
 description: 
 date: 2023-09-12
 slug: 2023-09-12
@@ -13,7 +13,7 @@ tags:
 
 ## 博客搭建
 
-博客使用 hugo 搭建，全站静态化。
+本博客使用 [hugo](https://gohugo.io/) 搭建，全站静态化。
 
-使用的主题是 [hugo-theme-stack](https://github.com/CaiJimmy/hugo-theme-stack )。
+使用的 hugo 主题是： [hugo-theme-stack](https://github.com/CaiJimmy/hugo-theme-stack )
 
