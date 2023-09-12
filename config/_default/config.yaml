@@ -2,16 +2,16 @@ baseurl: https://liujianjiang.com
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
-title: 笔记
+title: 生活，工作笔记。
 copyright: 
 
 languages:
     zh-cn:
         languageName: 中文
-        title: 笔记
+        title: 博客
         weight: 2
         params:
-            description: 笔记
+            description: 博客
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -64,7 +64,7 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
+        provider: giscus
 
         disqusjs:
             shortname: liujianjiang
@@ -119,11 +119,11 @@ params:
             siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
 
         giscus:
-            repo:
-            repoID:
-            category:
-            categoryID:
-            mapping:
+            repo: liujianjiang/hugo-blog
+            repoID: R_kgDOKNlToA
+            category: General
+            categoryID: DIC_kwDOKNlToM4CY_Ek
+            mapping: pathname
             lightTheme:
             darkTheme:
             reactionsEnabled: 1
